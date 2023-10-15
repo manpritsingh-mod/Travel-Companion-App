@@ -12,6 +12,7 @@ void main() {
     ]),
     PrefUtils().init()
   ]).then((value) {
+    myApp(manprit);
     runApp(MyApp());
   });
 }
